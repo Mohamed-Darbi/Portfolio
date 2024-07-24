@@ -4,7 +4,9 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <h2>Contact</h2>
-      <p>Email: mehmet@example.com</p>
+      <p>email: mohameddarbi99@gmail.com</p>
+      <p>phone: 3065409067</p>
+      
     </section>
   );
 }

@@ -3,13 +3,19 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #0f0f0f;
+  color: #fff;
 }
 
 .header {
   background: #333;
   color: #fff;
   padding: 1rem 0;
-  text-align: center;
+  text-align:center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 .header nav ul {
@@ -23,32 +29,20 @@ body {
 }
 
 .header nav ul li a {
-  color: #fff;
+  color: #0f0;
   text-decoration: none;
 }
+
+/* main {
+  padding-top: 5rem;
+} */
 
 .about, .projects, .contact {
   padding: 2rem;
   text-align: center;
+  color: rgb(0, 225, 255);
 }
 
-.project-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.project-card {
-  border: 1px solid #ccc;
-  margin: 1rem;
-  padding: 1rem;
-  width: 300px;
-  text-align: left;
-}
-
-.footer {
-  background: #333;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
