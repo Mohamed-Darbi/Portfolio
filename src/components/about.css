@@ -3,8 +3,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+  font-family: "Actor", sans-serif;  margin: 0;
   padding: 0;
   box-sizing: border-box;
   background: #0f0f0f;
@@ -48,6 +47,10 @@ body {
   opacity: 0;
   animation: appear 0.5s forwards;
   color: #fff;
+}
+
+.text-container span.name {
+  color: #00E1FF; /* Different color for your name */
 }
 
 @keyframes appear {

@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: 'IoT smart oven detector',
-    description: 'An arduino based project that detects smoke in the oven and alerts users via email and plays and a loud alarm to alert nearby users',
+    description: 'An arduino based project that detects smoke in the oven and alerts users via email and plays and a loud alarm to alert nearby users.',
     link: '#',
     icon: faFireBurner,
     languages: 'C++, Arduino'
@@ -34,14 +34,14 @@ const projects = [
   },
   {
     title: 'Shopkeeper Showdown',
-    description: 'An entertaining game for kids where the goal is keep the lineup moving while stopping the thief. Launched on the MKTV platform as a flagship game in 2023',
+    description: 'An entertaining game for kids where the goal is keep the lineup moving while stopping the thief. Launched on the MKTV platform as a flagship game in 2023.',
     link: 'https://muslimkids.tv/new/',
     icon: faStore,
     languages: 'Construct 3, javascript'
   },
   {
     title: 'Many smaller games',
-    description: 'A wide variety of simple games to either educate or entertain children on the MKTV platform',
+    description: 'A wide variety of simple games to either educate or entertain children on the MKTV platform.',
     link: 'https://muslimkids.tv/new/',
     icon: faGamepad,
     languages: 'Construct 3, Javascript'

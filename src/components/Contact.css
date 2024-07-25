@@ -1,0 +1,64 @@
+/* src/Contact.css */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: #0f0f0f;
+    color: #fff;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    color: rgb(0, 225, 255);
+    margin-bottom: 1rem;
+  }
+  
+  .contact-card {
+    background: #222;
+    border-radius: 10px; /* Rounded corners */
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-icon {
+    color: rgb(0, 225, 255);
+    margin-right: 0.5rem;
+  }
+  
+  .contact-item a {
+    color: #ffff;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    font-size:125%;
+  }
+  
+  .contact-item span {
+    color: #ddd;
+  }
+  

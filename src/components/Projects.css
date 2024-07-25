@@ -5,6 +5,11 @@
   padding: 2rem;
 }
 
+h2{
+font-size: 2rem; 
+
+}
+
 .project-card {
   background: #222;
   border: 0px solid #ccc;
